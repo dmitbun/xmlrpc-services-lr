@@ -1,0 +1,18 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Журналы событий (ЛР 2)
+log*.csv
+
+# База данных SQLite (ЛР 3)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/

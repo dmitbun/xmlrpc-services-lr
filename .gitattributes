@@ -1,0 +1,24 @@
+# Текстовые файлы — автоматическая конвертация
+*               text=auto
+
+# Jupyter notebooks — сохранить как есть (JSON)
+*.ipynb         text eol=lf
+
+# Python файлы
+*.py            text eol=lf
+
+# Markdown
+*.md            text eol=lf
+
+# Gitignore
+.gitignore      text eol=lf
+.gitattributes  text eol=lf
+
+# Бинарные файлы — не трогать
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.bmp           binary
+*.db            binary
+*.sqlite        binary
+*.sqlite3       binary
